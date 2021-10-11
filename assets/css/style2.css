@@ -1,0 +1,17 @@
+body{
+    background-color: mintcream;
+    color: #131212;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+a{
+    font-size: 20px;
+    font-weight: bold;
+}
+img{
+    background-color: #6d8596;
+    border-radius: 50%;
+}
+ul{
+    list-style-type: square;
+}

@@ -1,0 +1,42 @@
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(89,169,207,1) 0%, rgba(0,255,218,0.9920168751094187) 50%, rgba(0,254,255,1) 91%); 
+    font-family: 'Inter', sans-serif;
+}
+h1{
+    text-align: center;
+}
+th{
+    text-align: center;
+    border: 2px solid black;
+    width: 300px;
+    height: 95px;
+}
+td{
+    text-align: center;
+    border: 2px solid black;
+    width: 300px;
+    height: 95px;
+}
+img{
+    width: 75px;
+    height: 75px;
+}
+table{
+    border-collapse: collapse;
+}
+h1:hover{
+   color:blue; 
+}
+th:hover{
+    color: blue;
+}
+td:hover{
+    border-color: white;
+    color: white;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(89,169,207,1) 0%, rgba(124,0,255,0.9920168751094187) 50%, rgba(0,254,255,1) 91%); 
+}
+.disable:hover{
+    pointer-events: none;
+}
